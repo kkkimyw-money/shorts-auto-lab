@@ -6,7 +6,7 @@ import edge_tts
 
 ROOT=Path(__file__).parent
 OUT=ROOT/'output'; OUT.mkdir(exist_ok=True)
-FONT='/usr/share/fonts/truetype/noto/NotoSansCJK-Regular.ttc'
+FONT="/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc"
 TOPICS={
  'A': [
  ('숫자를 볼 때 주의할 점','조회수가 높다고 모두 좋은 콘텐츠는 아닙니다.','채널 규모와 업로드 후 경과 시간을 함께 비교하세요.','성과는 절대 조회수보다 상대적인 증가 속도로 보세요.'),
